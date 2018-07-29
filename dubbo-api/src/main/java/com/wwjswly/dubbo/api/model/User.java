@@ -1,12 +1,14 @@
 package com.wwjswly.dubbo.api.model;
 
 import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.io.Serializable;
 
 /**
  * Created by Javaer on 2018/7/29.
  */
+@Document(collection = "T_conversation")
 public class User implements Serializable {
 
     private static final long serialVersionUID = 1L;
@@ -48,7 +50,7 @@ public class User implements Serializable {
         this.age = age;
     }
 
-    public User(String _id, int id, String name, int age) {
+    public User() {
         this._id = _id;
         this.id = id;
         this.name = name;
