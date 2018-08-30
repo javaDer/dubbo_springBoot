@@ -1,0 +1,9 @@
+<AppSetting>
+    <appId>wx3f5f5a1641ce005a</appId>
+    <secret>4281594d554fb1bcab1123a714f701f5</secret>
+    <token>wonskd113n</token>
+    <aesKey>lRE3qfnBHxqzBE5i12v6CzU257ERsOIeMKqfDPdFu5c</aesKey>
+    <!-- 可以指定自己的tokenHolderClass，继承与com.riversoft.weixin.common.AccessTokenHolder
+    <tokenHolderClass>com.abc.Abc</tokenHolderClass>
+    -->
+</AppSetting>
